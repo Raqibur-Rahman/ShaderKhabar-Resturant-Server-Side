@@ -1,145 +1,474 @@
 [
     {
+        "chef_id": 1,
         "chef_picture": "https://cdn-icons-png.flaticon.com/512/522/522293.png?w=740&t=st=1683169788~exp=1683170388~hmac=6e34fdf719de3a827896f273b7aa8e5c4a1518ec934aa0d529f7cc102dbd1227",
         "chef_name": "Sohel Ahmed",
+        "bio": "Sohel Ahmed is a male chef with 15 years of experience in the culinary industry. He is known for his delicious Biryani, Shorshe Ilish, Beef Bhuna, Fish Curry, and Butter Chicken recipes. Sohel has gained a considerable following with 1215 likes on his social media pages.",
+        "Likes": 1215,
         "years_of_experience": 15,
         "recipes": [
             {
                 "recipe_name": "Biryani",
                 "recipe_url": "https://example.com/recipes/biryani",
-                "recipe_image": "https://example.com/recipes/biryani.jpg"
+                "recipe_image": "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "ingredients": [
+                    "Basmati Rice",
+                    "Chicken",
+                    "Onion",
+                    "Tomato",
+                    "Ginger"
+                ],
+                "cooking_method": "To make Biryani, first, marinate the chicken with a blend of spices, including turmeric, chili powder, and garam masala. Then, fry the onion until it's golden brown and set it aside. Add the marinated chicken and cook until it's tender. In another pot, cook the rice and layer it with the chicken and fried onion. Bake the mixture in the oven until the rice is cooked and the chicken is crispy. Finally, garnish with fresh coriander and serve hot.",
+                "rating": 4.8
             },
             {
                 "recipe_name": "Shorshe Ilish",
                 "recipe_url": "https://example.com/recipes/shorshe-ilish",
-                "recipe_image": "https://example.com/recipes/shorshe-ilish.jpg"
+                "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw7lU8AuJaCKy-0lVQRlPwLYld06eZ97c5YQ&usqp=CAU",
+                "rating": 4.5,
+                "ingredients": [
+                    "Hilsa fish",
+                    "Mustard oil",
+                    "Mustard seeds",
+                    "Green chillies",
+                    "Turmeric powder",
+                    "Salt"
+                ],
+                "cooking_method": "Clean and marinate the fish with salt and turmeric. Fry the fish until golden brown. In another pan, heat mustard oil and add mustard seeds, green chillies and turmeric. Add water and salt to make a gravy. Add the fried fish to the gravy and cook for a few minutes until the fish is cooked through. Serve hot with steamed rice."
             },
             {
                 "recipe_name": "Beef Bhuna",
                 "recipe_url": "https://example.com/recipes/beef-bhuna",
-                "recipe_image": "https://example.com/recipes/beef-bhuna.jpg"
+                "recipe_image": "https://www.masala.tv/wp-content/uploads/2021/07/Bhuna-Beef-Food-Diaries.jpg",
+                "rating": 4.2,
+                "ingredients": [
+                    "Beef",
+                    "Onion",
+                    "Ginger",
+                    "Garlic",
+                    "Tomatoes",
+                    "Red chilli powder",
+                    "Coriander powder",
+                    "Cumin powder",
+                    "Garam masala powder",
+                    "Salt",
+                    "Oil",
+                    "Water"
+                ],
+                "cooking_method": "Heat oil in a pan and fry the sliced onion until golden brown. Add ginger and garlic paste and saute for a minute. Add chopped tomatoes, red chilli powder, coriander powder, cumin powder, garam masala powder, and salt. Cook until the tomatoes are soft and mushy. Add beef and cook on high heat until browned on all sides. Lower the heat and add water. Cover and cook until the beef is tender and the gravy has thickened. Serve hot with roti or rice."
+            },
+            {
+                "recipe_name": "Fish Curry",
+                "recipe_url": "https://example.com/recipes/fish-curry",
+                "recipe_image": "https://www.thetakeiteasychef.com/wp-content/uploads/2016/11/kerala-fish-curry.1024x1024-9.png",
+                "ingredients": [
+                    "1 lb fish fillets, cut into pieces",
+                    "1 onion, chopped",
+                    "2 cloves garlic, minced",
+                    "1 tbsp ginger, minced",
+                    "1 tsp turmeric",
+                    "1 tsp cumin",
+                    "1 tsp coriander"
+                ],
+                "cooking_method": "To make fish curry, sauté the onion, garlic, and ginger in a pan until softened. Add the turmeric, cumin, and coriander and cook for a few minutes. Add the fish fillets and enough water to cover them. Simmer until the fish is cooked through, about 10-15 minutes. Serve over rice or with naan bread."
+            },
+            {
+                "recipe_name": "Kachchi Biriyani",
+                "recipe_url": "https://example.com/recipes/kachchi-biriyani",
+                "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTezEW6kMcF4JTeWpyu3npRi1ebIdm_yNJV2K9bKPY6T14kAkRU9SdY26CgDzPPVxcWs98&usqp=CAU",
+                "ingredients": [
+                    "Basmati Rice",
+                    "Mutton",
+                    "Yogurt",
+                    "Onion",
+                    "Garlic",
+                    "Ghee",
+                    "Oil",
+                    "Salt",
+                    "Water"
+                ],
+                "cooking_method": "Kachchi Biriyani is a famous Bengali dish made with marinated raw mutton pieces and long-grain Basmati rice. The meat and rice are layered in a pot, and cooked on a low flame with saffron-infused water and aromatic spices until the flavors meld together. The dish is then topped with fried onions, raisins, and cashews for a sweet and crunchy texture.",
+                "rating": 4.7
             }
         ]
     },
     {
+        "chef_id": 2,
         "chef_picture": "https://cdn-icons-png.flaticon.com/512/206/206898.png?w=740&t=st=1683170287~exp=1683170887~hmac=4758da3db6a0eb0668ba58779f62b0eccce699c050f826d810b038ea3dfa3da5",
         "chef_name": "Shawkat Osman",
+        "bio": "Shawkat Osman is a male chef with 12 years of experience who specializes in traditional Bangladeshi cuisine. He is famous for his Kachchi Biriyani, Pitha, and Rui Machher Jhol recipes. Shawkat has gained a significant number of followers with 1115 likes on his social media pages.",
+        "Likes": 1115,
         "years_of_experience": 12,
         "recipes": [
             {
                 "recipe_name": "Kachchi Biriyani",
                 "recipe_url": "https://example.com/recipes/kachchi-biriyani",
-                "recipe_image": "https://example.com/recipes/kachchi-biriyani.jpg"
+                "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTezEW6kMcF4JTeWpyu3npRi1ebIdm_yNJV2K9bKPY6T14kAkRU9SdY26CgDzPPVxcWs98&usqp=CAU",
+                "ingredients": [
+                    "Basmati Rice",
+                    "Mutton",
+                    "Yogurt",
+                    "Onion",
+                    "Garlic",
+                    "Ghee",
+                    "Oil",
+                    "Salt",
+                    "Water"
+                ],
+                "cooking_method": "Kachchi Biriyani is a famous Bengali dish made with marinated raw mutton pieces and long-grain Basmati rice. The meat and rice are layered in a pot, and cooked on a low flame with saffron-infused water and aromatic spices until the flavors meld together. The dish is then topped with fried onions, raisins, and cashews for a sweet and crunchy texture.",
+                "rating": 4.7
             },
             {
                 "recipe_name": "Pitha",
                 "recipe_url": "https://example.com/recipes/pitha",
-                "recipe_image": "https://example.com/recipes/pitha.jpg"
+                "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI-JIBscq59o-RVR91T-nRO4pXgsi2Qtnr0JwEhiIl7tMObmJszLtZtLdIX9UVIPLZ4yM&usqp=CAU",
+                "ingredients": [
+                    "Rice Flour",
+                    "Jaggery",
+                    "Coconut",
+                    "Cardamom",
+                    "Water"
+                ],
+                "cooking_method": "Pitha is a traditional dessert from Bangladesh made with rice flour, jaggery, and coconut. The ingredients are mixed together to form a dough, which is then shaped into small cakes and steamed until cooked through. The Pitha can be served warm or at room temperature, and are perfect for any occasion.",
+                "rating": 4.3
             },
             {
                 "recipe_name": "Rui Machher Jhol",
                 "recipe_url": "https://example.com/recipes/rui-machher-jhol",
-                "recipe_image": "https://example.com/recipes/rui-machher-jhol.jpg"
+                "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk0yF2csyhQQUOrq3HkcASRhawk5XA23yZ3Q&usqp=CAU",
+                "ingredients": [
+                    "Rohu fish",
+                    "Potatoes",
+                    "Tomatoes",
+                    "Onions",
+                    "Green chilies",
+                    "Cumin",
+                    "Coriander",
+                    "Salt"
+                ],
+                "cooking_method": "Rui Machher Jhol is a Bengali fish curry that is traditionally cooked with Rohu fish, potatoes, tomatoes, onions, and green chilies. The fish and potatoes are first fried lightly in oil and then cooked in a broth made of tomatoes, onions, and spices. The dish is typically seasoned with turmeric, cumin, coriander, and salt.",
+                "rating": 4.5
             }
         ]
     },
     {
+        "chef_id": 3,
         "chef_picture": "https://cdn-icons-png.flaticon.com/512/607/607461.png?w=740&t=st=1683170393~exp=1683170993~hmac=51e03c215534cb6ad82e767f34ffa9314eeba9a767790aadeb2be7e7c7c8422a",
         "chef_name": "Kamrul Hasan",
+        "bio": "Kamrul Hasan is a male chef with 10 years of experience who is known for his mouth-watering Fish Curry, Chapli Kebab, and Samosa recipes. Kamrul has a notable following with 1135 likes on his social media pages.",
+        "Likes": 1135,
         "years_of_experience": 10,
         "recipes": [
             {
-                "recipe_name": "Chitol Maacher Muitha",
-                "recipe_url": "https://example.com/recipes/chitol-maacher-muitha",
-                "recipe_image": "https://example.com/recipes/chitol-maacher-muitha.jpg"
+                "recipe_name": "Fish Curry",
+                "recipe_url": "https://example.com/recipes/fish-curry",
+                "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk0yF2csyhQQUOrq3HkcASRhawk5XA23yZ3Q&usqp=CAU",
+                "ingredients": [
+                    "1 lb fish fillets, cut into pieces",
+                    "1 onion, chopped",
+                    "2 cloves garlic, minced",
+                    "1 tbsp ginger, minced",
+                    "1 tsp turmeric",
+                    "1 tsp cumin",
+                    "1 tsp coriander"
+                ],
+                "cooking_method": "To make fish curry, sauté the onion, garlic, and ginger in a pan until softened. Add the turmeric, cumin, and coriander and cook for a few minutes. Add the fish fillets and enough water to cover them. Simmer until the fish is cooked through, about 10-15 minutes. Serve over rice or with naan bread."
             },
             {
-                "recipe_name": "Kosha Mangsho",
-                "recipe_url": "https://example.com/recipes/kosha-mangsho",
-                "recipe_image": "https://example.com/recipes/kosha-mangsho.jpg"
+                "recipe_name": "Samosa",
+                "recipe_url": "https://example.com/recipes/samosa",
+                "recipe_image": "https://static.toiimg.com/photo/61050397.cms",
+                "ingredients": [
+                    "Potatoes",
+                    "Peas",
+                    "Onion",
+                    "Ginger",
+                    "Garlic",
+                    "Coriander leaves",
+                    "Garam masala"
+                ],
+                "cooking_method": "To make Samosas, first prepare the filling by boiling potatoes and adding peas, onions, ginger, garlic, coriander leaves, and garam masala. Then, stuff the filling inside the samosa dough and fry it until golden brown. Serve hot with chutney or sauce.",
+                "rating": 4.5
+            },
+            {
+                "recipe_name": "Chapli Kebab",
+                "recipe_url": "https://example.com/recipes/chapli-kebab",
+                "recipe_image": "https://c.ndtvimg.com/2021-01/vsafkf5_chapli-kebab_625x300_08_January_21.jpg",
+                "ingredients": [
+                    "ground beef",
+                    "onion",
+                    "tomato",
+                    "coriander",
+                    "cumin",
+                    "chili powder",
+                    "salt"
+                ],
+                "cooking_method": "To make chapli kebab, mix all the ingredients together in a large mixing bowl. Form the mixture into flat, round patties. Heat a skillet over medium-high heat and add a small amount of oil. Cook the kebabs for 3-4 minutes on each side, until they are crispy and golden brown. Serve hot with mint chutney or yogurt sauce.",
+                "rating": 4.5
+            },
+            {
+                "recipe_name": "Pitha",
+                "recipe_url": "https://example.com/recipes/pitha",
+                "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI-JIBscq59o-RVR91T-nRO4pXgsi2Qtnr0JwEhiIl7tMObmJszLtZtLdIX9UVIPLZ4yM&usqp=CAU",
+                "ingredients": [
+                    "Rice Flour",
+                    "Jaggery",
+                    "Coconut",
+                    "Cardamom",
+                    "Water"
+                ],
+                "cooking_method": "Pitha is a traditional dessert from Bangladesh made with rice flour, jaggery, and coconut. The ingredients are mixed together to form a dough, which is then shaped into small cakes and steamed until cooked through. The Pitha can be served warm or at room temperature, and are perfect for any occasion.",
+                "rating": 4.3
+            },
+            {
+                "recipe_name": "Rui Machher Jhol",
+                "recipe_url": "https://example.com/recipes/rui-machher-jhol",
+                "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk0yF2csyhQQUOrq3HkcASRhawk5XA23yZ3Q&usqp=CAU",
+                "ingredients": [
+                    "Rohu fish",
+                    "Potatoes",
+                    "Tomatoes",
+                    "Onions",
+                    "Green chilies",
+                    "Cumin",
+                    "Coriander",
+                    "Salt"
+                ],
+                "cooking_method": "Rui Machher Jhol is a Bengali fish curry that is traditionally cooked with Rohu fish, potatoes, tomatoes, onions, and green chilies. The fish and potatoes are first fried lightly in oil and then cooked in a broth made of tomatoes, onions, and spices. The dish is typically seasoned with turmeric, cumin, coriander, and salt.",
+                "rating": 4.5
             }
         ]
     },
     {
-        "chef_picture": "https://cdn-icons-png.flaticon.com/512/360/360920.png?w=740&t=st=1683170421~exp=1683171021~hmac=fb053f56d11df5bfd4ea2b183b9f97ca0dff8918e35aee8909c0b966a8e2690c",
-        "chef_name": "Kamal Uddin",
-        "years_of_experience": 8,
-        "recipes": [
-            {
-                "recipe_name": "Prawn Malai Curry",
-                "recipe_url": "https://example.com/recipes/prawn-malai-curry",
-                "recipe_image": "https://example.com/recipes/prawn-malai-curry.jpg"
-            },
-            {
-                "recipe_name": "Mutton Rezala",
-                "recipe_url": "https://example.com/recipes/mutton-rezala",
-                "recipe_image": "https://example.com/recipes/mutton-rezala.jpg"
-            }
-        ]
-    },
-    {
+        "chef_id": 4,
         "chef_picture": "https://cdn-icons-png.flaticon.com/512/1085/1085445.png?w=740&t=st=1683170252~exp=1683170852~hmac=fe23342a177df6847097027a2ab63e7c749e4535258ba7573ee2a84914a75ed4",
         "chef_name": "Sazzad Hossain",
+        "bio": "Sazzad Hossain is a male chef with 20 years of experience who specializes in seafood dishes. He is known for his mouth-watering Shorshe Ilish, Fish Curry, and Beef Bhuna recipes. Sazzad has a significant following with 1355 likes on his social media pages.",
+        "Likes": 1355,
         "years_of_experience": 20,
         "recipes": [
             {
-                "recipe_name": "Prawn Malai Curry",
-                "recipe_url": "https://example.com/recipes/prawn-malai-curry",
-                "recipe_image": "https://example.com/recipes/prawn-malai-curry.jpg"
+                "recipe_name": "Shorshe Ilish",
+                "recipe_url": "https://example.com/recipes/shorshe-ilish",
+                "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw7lU8AuJaCKy-0lVQRlPwLYld06eZ97c5YQ&usqp=CAU",
+                "rating": 4.5,
+                "ingredients": [
+                    "Hilsa fish",
+                    "Mustard oil",
+                    "Mustard seeds",
+                    "Green chillies",
+                    "Turmeric powder",
+                    "Salt"
+                ],
+                "cooking_method": "Clean and marinate the fish with salt and turmeric. Fry the fish until golden brown. In another pan, heat mustard oil and add mustard seeds, green chillies and turmeric. Add water and salt to make a gravy. Add the fried fish to the gravy and cook for a few minutes until the fish is cooked through. Serve hot with steamed rice."
             },
             {
-                "recipe_name": "Mutton Bhuna",
-                "recipe_url": "https://example.com/recipes/mutton-bhuna",
-                "recipe_image": "https://example.com/recipes/mutton-bhuna.jpg"
+                "recipe_name": "Beef Bhuna",
+                "recipe_url": "https://example.com/recipes/beef-bhuna",
+                "recipe_image": "https://www.masala.tv/wp-content/uploads/2021/07/Bhuna-Beef-Food-Diaries.jpg",
+                "rating": 4.2,
+                "ingredients": [
+                    "Beef",
+                    "Onion",
+                    "Ginger",
+                    "Garlic",
+                    "Tomatoes",
+                    "Red chilli powder",
+                    "Coriander powder",
+                    "Cumin powder",
+                    "Garam masala powder",
+                    "Salt",
+                    "Oil",
+                    "Water"
+                ],
+                "cooking_method": "Heat oil in a pan and fry the sliced onion until golden brown. Add ginger and garlic paste and saute for a minute. Add chopped tomatoes, red chilli powder, coriander powder, cumin powder, garam masala powder, and salt. Cook until the tomatoes are soft and mushy. Add beef and cook on high heat until browned on all sides. Lower the heat and add water. Cover and cook until the beef is tender and the gravy has thickened. Serve hot with roti or rice."
             },
             {
-                "recipe_name": "Paneer Tikka Masala",
-                "recipe_url": "https://example.com/recipes/paneer-tikka-masala",
-                "recipe_image": "https://example.com/recipes/paneer-tikka-masala.jpg"
+                "recipe_name": "Fish Curry",
+                "recipe_url": "https://example.com/recipes/fish-curry",
+                "recipe_image": "https://www.thetakeiteasychef.com/wp-content/uploads/2016/11/kerala-fish-curry.1024x1024-9.png",
+                "ingredients": [
+                    "1 lb fish fillets, cut into pieces",
+                    "1 onion, chopped",
+                    "2 cloves garlic, minced",
+                    "1 tbsp ginger, minced",
+                    "1 tsp turmeric",
+                    "1 tsp cumin",
+                    "1 tsp coriander"
+                ],
+                "cooking_method": "To make fish curry, sauté the onion, garlic, and ginger in a pan until softened. Add the turmeric, cumin, and coriander and cook for a few minutes. Add the fish fillets and enough water to cover them. Simmer until the fish is cooked through, about 10-15 minutes. Serve over rice or with naan bread."
             }
         ]
     },
     {
+        "chef_id": 5,
         "chef_picture": "https://cdn-icons-png.flaticon.com/512/649/649210.png?w=740&t=st=1683170176~exp=1683170776~hmac=7789a64e634041274a3ea9bdbf075b162b2204d662c054e6f43bc7e9b7fdab9d",
         "chef_name": "Jahangir Alam",
+        "bio": "Chef Jahangir Alam is a culinary expert with 12 years of experience in the industry. He has gained popularity for his unique take on traditional Pakistani cuisine. Chef Jahangir Alam has a whopping 1145 likes on his dishes on various social media platforms. He is known for his delicious Chapli Kebab, Haleem, and Nihari recipes, which are loved by food enthusiasts worldwide.",
+        "Likes": 1145,
         "years_of_experience": 12,
         "recipes": [
             {
                 "recipe_name": "Chapli Kebab",
                 "recipe_url": "https://example.com/recipes/chapli-kebab",
-                "recipe_image": "https://example.com/recipes/chapli-kebab.jpg"
+                "recipe_image": "https://c.ndtvimg.com/2021-01/vsafkf5_chapli-kebab_625x300_08_January_21.jpg",
+                "ingredients": [
+                    "ground beef",
+                    "onion",
+                    "tomato",
+                    "coriander",
+                    "cumin",
+                    "chili powder",
+                    "salt"
+                ],
+                "cooking_method": "To make chapli kebab, mix all the ingredients together in a large mixing bowl. Form the mixture into flat, round patties. Heat a skillet over medium-high heat and add a small amount of oil. Cook the kebabs for 3-4 minutes on each side, until they are crispy and golden brown. Serve hot with mint chutney or yogurt sauce.",
+                "rating": 4.5
             },
             {
                 "recipe_name": "Haleem",
                 "recipe_url": "https://example.com/recipes/haleem",
-                "recipe_image": "https://example.com/recipes/haleem.jpg"
+                "recipe_image": "https://www.ndtv.com/cooks/images/Haleem%282%29.jpg",
+                "ingredients": [
+                    "lamb",
+                    "wheat",
+                    "chickpeas",
+                    "lentils",
+                    "spices",
+                    "yogurt",
+                    "coriander"
+                ],
+                "cooking_method": "Boil the meat, wheat, chickpeas, and lentils together. Add spices and simmer until everything is soft. Blend the mixture to create a smooth consistency. Serve with a dollop of yogurt and chopped coriander.",
+                "rating": 4.8
             },
             {
                 "recipe_name": "Nihari",
                 "recipe_url": "https://example.com/recipes/nihari",
-                "recipe_image": "https://example.com/recipes/nihari.jpg"
+                "recipe_image": "https://www.myweekendkitchen.in/wp-content/uploads/2015/08/mutton_nihari_masala_curry.jpg",
+                "ingredients": [
+                    "beef shank",
+                    "bone marrow",
+                    "ginger",
+                    "garlic",
+                    "onion",
+                    "spices",
+                    "flour"
+                ],
+                "cooking_method": "Slow-cook the beef shank and bone marrow with ginger, garlic, and spices until the meat is tender. Mix flour with water to create a thick paste and add it to the pot to thicken the broth. Serve with naan or rice.",
+                "rating": 4.7
             }
         ]
     },
     {
+        "chef_id": 6,
         "chef_picture": "https://cdn-icons-png.flaticon.com/512/190/190673.png?w=740&t=st=1683170140~exp=1683170740~hmac=9366b218f1448200a0dc32d1ca375d93af0696fc6f830d33e1c00ea37d12ddc3",
         "chef_name": "Imran Chowdhury",
+        "bio": "Imran Chowdhury is a renowned chef with 18 years of experience in the culinary industry. He has an impressive 1215 likes on his dishes on social media. Chef Imran Chowdhury specializes in traditional Indian sweets, with his Rasgulla, Mishti Doi, and Cham Cham recipes being among the favorites of foodies worldwide. He is also known for his delicious Samosas and Aloo Gobi recipe.",
+        "Likes": 1215,
         "years_of_experience": 18,
         "recipes": [
             {
                 "recipe_name": "Rasgulla",
                 "recipe_url": "https://example.com/recipes/rasgulla",
-                "recipe_image": "https://example.com/recipes/rasgulla.jpg"
+                "recipe_image": "https://i0.wp.com/lazyfoodieskitchen.com/wp-content/uploads/2020/11/rosogolla-scaled.jpg?fit=1920%2C2560&ssl=1",
+                "ingredients": [
+                    "Milk",
+                    "Lemon Juice",
+                    "Sugar",
+                    "Water",
+                    "Rose Water",
+                    "Cardamom",
+                    "Saffron"
+                ],
+                "cooking_method": "To make Rasgulla, milk is first boiled and then curdled with lemon juice. The curdled milk is then drained and kneaded into a soft dough. The dough is then rolled into small balls, which are cooked in a sugar syrup flavored with rose water, cardamom, and saffron. The rasgullas absorb the syrup and become spongy and delicious.",
+                "rating": 4.8
             },
             {
                 "recipe_name": "Mishti Doi",
                 "recipe_url": "https://example.com/recipes/mishti-doi",
-                "recipe_image": "https://example.com/recipes/mishti-doi.jpg"
+                "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR16bBMi86nfHx5mNjq1WLvtNh8827ATMxMA&usqp=CAU",
+                "ingredients": [
+                    "Milk",
+                    "Sugar",
+                    "Curd",
+                    "Cardamom",
+                    "Saffron",
+                    "Earthen Pots"
+                ],
+                "cooking_method": "To make Mishti Doi, milk is boiled and sweetened with sugar. It is then mixed with curd and poured into earthen pots. The pots are covered and left to ferment in a warm place for several hours, allowing the curd to set and the mixture to thicken. The Mishti Doi is then flavored with cardamom and saffron and chilled before serving.",
+                "rating": 4.6
             },
             {
                 "recipe_name": "Cham Cham",
                 "recipe_url": "https://example.com/recipes/cham-cham",
-                "recipe_image": "https://example.com/recipes/cham-cham.jpg"
+                "recipe_image": "https://tastytadka.in/wp-content/uploads/2019/09/featured.jpg",
+                "ingredients": [
+                    "Milk Powder",
+                    "Sugar",
+                    "Water",
+                    "Lemon Juice",
+                    "Coconut Powder",
+                    "Pistachios",
+                    "Green Food Coloring"
+                ],
+                "cooking_method": "To make Cham Cham, milk powder is mixed with water and lemon juice to form a dough. The dough is then shaped into cylindrical pieces and boiled in a sugar syrup. After cooking, the cham cham is coated with coconut powder and garnished with pistachios. Some chefs also add green food coloring to give the cham cham a unique appearance.",
+                "rating": 4.5
+            }
+        ]
+    },
+    {
+        "chef_id": 7,
+        "chef_picture": "https://cdn-icons-png.flaticon.com/512/360/360920.png?w=740&t=st=1683170421~exp=1683171021~hmac=fb053f56d11df5bfd4ea2b183b9f97ca0dff8918e35aee8909c0b966a8e2690c",
+        "chef_name": "Kamal Uddin",
+        "bio": "Chef Kamal Uddin has eight years of experience in the culinary industry and has become a popular name among food enthusiasts for his unique blend of traditional and modern cooking techniques. He has 1211 likes on his dishes on social media. Chef Kamal Uddin is known for his delicious Samosa, Aloo Gobi, and Shorshe Ilish recipes, which are enjoyed by food lovers worldwide.",
+        "Likes": 1211,
+        "years_of_experience": 8,
+        "recipes": [
+            {
+                "recipe_name": "Samosa",
+                "recipe_url": "https://example.com/recipes/samosa",
+                "recipe_image": "https://www.vegrecipesofindia.com/wp-content/uploads/2013/11/samosa-3-500x375.jpg",
+                "ingredients": [
+                    "Potatoes",
+                    "Peas",
+                    "Onion",
+                    "Ginger",
+                    "Garlic",
+                    "Coriander leaves",
+                    "Garam masala"
+                ],
+                "cooking_method": "To make Samosas, first prepare the filling by boiling potatoes and adding peas, onions, ginger, garlic, coriander leaves, and garam masala. Then, stuff the filling inside the samosa dough and fry it until golden brown. Serve hot with chutney or sauce.",
+                "rating": 4.5
+            },
+            {
+                "recipe_name": "Aloo Gobi",
+                "recipe_url": "https://example.com/recipes/aloo-gobi",
+                "recipe_image": "https://www.seriouseats.com/thmb/gTVjyFHq-N3iyv08113cBQWCTv8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20220303-aloo-gobi-vicky-wasik-35-c9afccd574534761886e5964f34586e1.jpg",
+                "ingredients": [
+                    "Potatoes",
+                    "Cauliflower",
+                    "Onion",
+                    "Tomatoes",
+                    "Ginger",
+                    "Garlic",
+                    "Turmeric"
+                ],
+                "cooking_method": "To make Aloo Gobi, first sauté onion, ginger, and garlic in oil. Then, add potatoes and cauliflower along with turmeric and salt. Cover and cook until the vegetables are tender. Finally, add diced tomatoes and cook for a few more minutes. Serve hot with rice or naan.",
+                "rating": 4.2
+            },
+            {
+                "recipe_name": "Shorshe Ilish",
+                "recipe_url": "https://example.com/recipes/shorshe-ilish",
+                "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw7lU8AuJaCKy-0lVQRlPwLYld06eZ97c5YQ&usqp=CAU",
+                "rating": 4.5,
+                "ingredients": [
+                    "Hilsa fish",
+                    "Mustard oil",
+                    "Mustard seeds",
+                    "Green chillies",
+                    "Turmeric powder",
+                    "Salt"
+                ],
+                "cooking_method": "Clean and marinate the fish with salt and turmeric. Fry the fish until golden brown. In another pan, heat mustard oil and add mustard seeds, green chillies and turmeric. Add water and salt to make a gravy. Add the fried fish to the gravy and cook for a few minutes until the fish is cooked through. Serve hot with steamed rice."
             }
         ]
     }
